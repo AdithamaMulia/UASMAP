@@ -4,14 +4,17 @@ import androidx.compose.material3.Typography
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.lab.uasmap.R
 
 private val UnboundedFontFamily = FontFamily(
-    Font(R.font.RobotoMono-Italic-VariableFont_wght, FontWeight.Bold, FontStyle.Normal),
-    Font(R.font.RobotoMono-Regular-VariableFont_wght, FontWeight.Normal, FontStyle.Normal),
-    Font(R.font.RobotoMono-VariableFont_wght, FontWeight.Light, FontStyle.Normal)
+    Font(R.font.robotomono_italic_variablefont_wght, FontWeight.Bold, FontStyle.Normal),
+    Font(R.font.unbounded_variablefont_wght, FontWeight.Normal, FontStyle.Normal),
+    Font(R.font.robotomono_variablefont_wght, FontWeight.Light, FontStyle.Normal)
 )
 
 @Immutable

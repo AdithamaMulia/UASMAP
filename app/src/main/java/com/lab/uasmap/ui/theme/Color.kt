@@ -34,6 +34,7 @@ val LocalAppColors = staticCompositionLocalOf {
         surface = Color.Unspecified,
         onSurface = Color.Unspecified,
         secondarySurface = Color.Unspecified,
+        onSecondarySurface = Color.Unspecified,
         regularSurface = Color.Unspecified,
         onRegularSurface = Color.Unspecified,
         actionSurface = Color.Unspecified,
@@ -57,3 +58,4 @@ val extendedColors = AppColors(
     highlightSurface = Cyan,
     onHighlightSurface = White
 )
+

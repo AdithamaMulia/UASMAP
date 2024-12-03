@@ -30,6 +30,20 @@ fun VideoDetailsSection(
 }
 
 @Composable
+private fun VideoBackground(
+    modifier: Modifier = Modifier
+) {
+    Box(
+        modifier = modifier
+            .fillMaxWidth()
+            .height(240.dp)
+            .background(
+                color =
+            )
+    )
+}
+
+@Composable
 private fun ActionBar(
     modifier: Modifier = Modifier,
     headline: String
